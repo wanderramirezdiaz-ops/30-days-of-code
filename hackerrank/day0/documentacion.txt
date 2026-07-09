@@ -1,0 +1,24 @@
+Objetivo
+
+En este desafío, repasaremos algunos conceptos básicos que te ayudarán a comenzar esta serie. Necesitarás utilizar la misma (o una sintaxis similar) para leer datos de entrada y mostrar datos de salida en los desafíos de HackerRank.
+
+Consulta la pestaña Tutorial para encontrar material de aprendizaje y un video explicativo.
+
+Tarea
+
+Para completar este desafío, debes:
+
+Guardar una línea de texto ingresada por el usuario desde la entrada estándar (stdin) en una variable.
+Imprimir Hello, World. en una sola línea.
+Imprimir el contenido de la variable en una segunda línea.
+
+¡Tú puedes hacerlo!
+
+Nota: Las instrucciones están basadas en Java, pero HackerRank permite enviar soluciones en muchos lenguajes de programación. Puedes cambiar el lenguaje desde el menú desplegable que aparece sobre el editor. Dependiendo del lenguaje que utilices, la forma de declarar la variable puede variar siguiendo las buenas prácticas de ese lenguaje.
+
+Formato de entrada
+
+Se recibe una única línea de texto, la cual debe almacenarse en una variable.
+
+Formato de salida
+En la primera línea, imprime:
