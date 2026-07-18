@@ -3,7 +3,7 @@ def facturacion():
     print("      SISTEMA DE FACTURACIÓN")
     print("=" * 50)
 
-    cantidad = 5    
+    cantidad = 1
     productos = []
 
     subtotal = 0

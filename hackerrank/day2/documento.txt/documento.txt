@@ -1,0 +1,69 @@
+Objetivo
+
+En este desafío trabajarás con operadores aritméticos.
+
+Tarea
+
+Dado el precio de la comida (costo base), el porcentaje de propina (el porcentaje del costo de la comida que se agrega como propina) y el porcentaje de impuesto (el porcentaje del costo de la comida que se agrega como impuesto), calcula e imprime el costo total de la comida.
+
+El resultado debe redondearse al entero más cercano.
+
+Ejemplo
+
+Si:
+
+Precio de la comida = 100
+Propina = 15%
+Impuesto = 8%
+
+Entonces:
+
+Propina = 15
+Impuesto = 8
+Total = 123
+
+Se debe imprimir 123.
+
+Descripción de la función
+
+Completa la función solve.
+
+La función recibe los siguientes parámetros:
+
+meal_cost (double): costo de la comida antes de propina e impuestos.
+tip_percent (int): porcentaje de propina.
+tax_percent (int): porcentaje de impuesto.
+Retorno
+
+La función no devuelve ningún valor. Solo debe imprimir el costo total, redondeado al entero más cercano.
+
+Nota: Utiliza valores precisos en los cálculos para evitar errores al redondear el resultado.
+
+Formato de entrada
+
+La entrada consta de 3 líneas:
+
+Un número decimal (double) que representa el costo de la comida antes de impuestos y propina.
+Un número entero (int) que representa el porcentaje de propina.
+Un número entero (int) que representa el porcentaje de impuesto.
+Entrada de ejemplo
+12.00
+20
+8
+Salida de ejemplo
+15
+Explicación
+
+Datos:
+
+Costo de la comida = 12.00
+Propina = 20%
+Impuesto = 8%
+Cálculos
+Propina = 12 × 20% = 2.40
+Impuesto = 12 × 8% = 0.96
+Total = 12 + 2.40 + 0.96 = 15.36
+
+Al redondear 15.36 al entero más cercano, el resultado es:
+
+15
