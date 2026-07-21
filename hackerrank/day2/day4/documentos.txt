@@ -1,0 +1,117 @@
+Objetivo
+
+En este desafío aprenderás la diferencia entre una clase y una instancia. Como este es un concepto de Programación Orientada a Objetos (POO), solo está disponible en ciertos lenguajes. Revisa la pestaña Tutorial para encontrar material de aprendizaje y un video explicativo.
+
+Tarea
+
+Escribe una clase Person con una variable de instancia llamada age y un constructor que reciba un entero initialAge como parámetro.
+
+El constructor debe asignar el valor de initialAge a age, después de verificar que el argumento no sea negativo.
+
+Si se pasa un valor negativo como initialAge, el constructor debe:
+Asignar 0 a age.
+Imprimir el mensaje:
+Age is not valid, setting age to 0.
+
+Además, debes escribir los siguientes métodos de instancia:
+
+yearPasses()
+
+Debe incrementar la variable age en 1.
+
+amIOld()
+
+Debe realizar las siguientes acciones según la edad:
+
+Si age < 13, imprimir:
+You are young.
+Si 13 ≤ age < 18, imprimir:
+You are a teenager.
+En cualquier otro caso (age ≥ 18), imprimir:
+You are old.
+
+Para ayudarte a completar este desafío, gran parte del código ya está proporcionado. El código que crea cada instancia de la clase Person se encuentra en el método main. No te preocupes si todavía no entiendes todo; más adelante escribirás todo el código por tu cuenta.
+
+Nota: No elimines ni modifiques el código base (stub code) proporcionado en el editor.
+
+Formato de entrada
+
+La entrada ya es manejada por el código proporcionado.
+
+La primera línea contiene un entero T, que representa el número de casos de prueba.
+Las siguientes T líneas contienen un entero que representa la edad (initialAge) de una instancia de Person.
+Restricciones
+
+(Las restricciones son proporcionadas por el problema.)
+
+Formato de salida
+
+Completa las definiciones de los métodos para que cumplan con las especificaciones. Si todo está implementado correctamente, cada caso de prueba imprimirá 2 o 3 líneas, dependiendo de si la edad inicial es válida o no.
+
+Ejemplo de entrada
+4
+-1
+10
+16
+18
+Ejemplo de salida
+Age is not valid, setting age to 0.
+You are young.
+You are young.
+
+You are young.
+You are a teenager.
+
+You are a teenager.
+You are old.
+
+You are old.
+You are old.
+Explicación
+Caso de prueba 0
+
+La edad inicial es -1.
+
+Como es negativa:
+
+Se asigna 0 a age.
+Se imprime:
+Age is not valid, setting age to 0.
+
+Después se llama a amIOld(), que imprime:
+
+You are young.
+
+Luego pasan tres años (yearPasses() se llama tres veces), por lo que la edad pasa de 0 a 3. Como sigue siendo menor de 13, se imprime nuevamente:
+
+You are young.
+Caso de prueba 1
+
+La edad inicial es 10.
+
+Se imprime:
+You are young.
+
+Después de tres años, la edad es 13, por lo que ahora se imprime:
+
+You are a teenager.
+Caso de prueba 2
+
+La edad inicial es 16.
+
+Se imprime:
+You are a teenager.
+
+Después de tres años, la edad es 19, por lo que ahora se imprime:
+
+You are old.
+Caso de prueba 3
+
+La edad inicial es 18.
+
+Se imprime:
+You are old.
+
+Después de tres años, la edad es 21, por lo que sigue imprimiendo:
+
+You are old.
