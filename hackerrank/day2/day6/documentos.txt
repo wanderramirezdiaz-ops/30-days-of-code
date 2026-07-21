@@ -1,0 +1,72 @@
+Objetivo
+Hoy ampliaremos nuestro conocimiento sobre las cadenas de texto (strings), combinándolo con lo que ya hemos aprendido sobre los bucles (loops). Revisa la pestaña Tutorial para ver material de aprendizaje y un video instructivo.
+
+Tarea
+
+Dada una cadena de texto S, de longitud n, que está indexada desde 0 hasta n-1, imprime sus caracteres de índices pares e impares como dos cadenas separadas por un espacio en una sola línea (mira el ejemplo de salida para más detalles).
+
+Nota: El índice 0 se considera un índice par.
+
+Ejemplo
+
+Entrada:
+
+abc
+
+Salida:
+
+ac b
+Formato de entrada
+La primera línea contiene un entero T (el número de casos de prueba).
+Cada una de las siguientes T líneas contiene una cadena de texto S.
+Restricciones
+
+(En el enunciado original no aparecen las restricciones).
+
+Formato de salida
+
+Para cada cadena S (donde 0 ≤ i < T), imprime:
+
+Los caracteres de S que están en posiciones pares.
+Un espacio.
+Los caracteres de S que están en posiciones impares.
+Ejemplo de entrada
+2
+Hacker
+Rank
+Ejemplo de salida
+Hce akr
+Rn ak
+Explicación
+Caso de prueba 0:
+
+La cadena es:
+
+Hacker
+
+Sus índices son:
+
+Índice:   0 1 2 3 4 5
+Carácter: H a c k e r
+Índices pares: 0, 2, 4 → Hce
+Índices impares: 1, 3, 5 → akr
+
+Se imprime:
+
+Hce akr
+Caso de prueba 1:
+
+La cadena es:
+
+Rank
+
+Sus índices son:
+
+Índice:   0 1 2 3
+Carácter: R a n k
+Índices pares: 0, 2 → Rn
+Índices impares: 1, 3 → ak
+
+Se imprime:
+
+Rn ak
